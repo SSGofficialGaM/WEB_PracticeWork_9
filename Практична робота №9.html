@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея улюблених книг</title>
+    <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+    <div class="settings">
+        <label>
+            <input type="checkbox" id="darkModeToggle"> Темна тема
+        </label>
+    </div>
+
+    <form id="bookForm">
+        <input type="text" id="bookTitle" placeholder="Назва книги" required>
+        <input type="url" id="bookCover" placeholder="URL обкладинки" required>
+        <button type="submit">Додати книгу</button>
+    </form>
+
+    <section id="gallery"></section>
+
+    <script src="script.min.js"></script>
+</body>
+</html>
